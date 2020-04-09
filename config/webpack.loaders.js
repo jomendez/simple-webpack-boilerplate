@@ -48,32 +48,20 @@ const css = {
   ],
 };
 
-const sass ={
-    test: /\.s[ac]ss$/i,
-    use: [
-      // Creates `style` nodes from JS strings
-      'style-loader',
-      // Translates CSS into CommonJS
-      'css-loader',
-      // Compiles Sass to CSS
-      'sass-loader',
-    ],
-  };
-
-// const sass = {
-//   test: /\.s[c|a]ss$/,
-//   use: [
-//     config.env === 'production' ? MiniCssExtractPlugin.loader : styleLoader,
-//     cssLoader,
-//     postcssLoader,
-//     {
-//       loader: 'sass-loader',
-//       options: {
-//         sourceMap,
-//       },
-//     },
-//   ],
-// };
+const sass = {
+  test: /\.s[c|a]ss$/,
+  use: [
+    config.env === 'production' ? MiniCssExtractPlugin.loader : styleLoader,
+    cssLoader,
+    postcssLoader,
+    {
+      loader: 'sass-loader',
+      options: {
+        sourceMap,
+      },
+    },
+  ],
+};
 
 // Image loaders
 const imageLoader = {

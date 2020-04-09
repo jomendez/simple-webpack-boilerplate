@@ -1,5 +1,4 @@
 const path = require('path');
-// const fs = require('fs');
 
 let ROOT = process.env.PWD;
 
@@ -8,10 +7,6 @@ if (!ROOT) {
 }
 
 const config = {
-
-
-  // env: process.env.WEBPACK_MODE || 'production',
-
   site_url: '',
   site_port: 9000,
 
@@ -37,11 +32,7 @@ const config = {
     config: 'config',
     src: 'src',
     dist: 'dist',
-  },
-
-  // package: JSON.parse(
-  //   fs.readFileSync(path.join(ROOT, '/package.json'), { encoding: 'utf-8' }),
-  // ),
+  }
 };
 
 module.exports = config;
