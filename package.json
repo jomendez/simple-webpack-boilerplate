@@ -12,6 +12,7 @@
     "setup": "node ./config/site.setup.js",
     "postinstall": "node ./config/site.setup.js",
     "lint:js": "./node_modules/.bin/eslint \"src/**/*.js\"",
+    "lint:styles": "stylelint \"src/**/*.scss\"",
     "deploy": "node ./config/site.deploy.js"
   },
   "dependencies": {
