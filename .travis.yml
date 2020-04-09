@@ -1,8 +1,7 @@
 language: node_js
 
 node_js:
-  - node
-  - lts/*
+  - 12
 
 install:
   - SKIP_SETUP=false npm install
@@ -13,4 +12,4 @@ script:
   - npm run build:dist
 
 dist: trusty
-sudo: false
+sudo: true
