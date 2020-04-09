@@ -11,7 +11,8 @@ A simple skeleton project to rapid prototyping and development of front-end apps
 
 ### Clone repo:
 ```
-git clone https://github.com/jomendez/simple-webpack-boilerplate && cd simple-webpack-boilerplate && rm -rf .git && git init
+git clone https://github.com/jomendez/simple-webpack-boilerplate && cd simple-webpack-boilerplate && 
+rm -rf .git && git init
 ````
 
 1. Run `npm install` 
