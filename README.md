@@ -1,4 +1,4 @@
-# How to bundle a simple web app with Webpack
+# Bundle a simple web app with Webpack
 
 A simple skeleton project to rapid prototyping and development of front-end apps, with scss, ES7, webpack (bundlefy, uglyfy,etc).
 
@@ -9,11 +9,15 @@ A simple skeleton project to rapid prototyping and development of front-end apps
 
 ## Installation Steps (if applicable)
 
-1. Clone repo `git clone https://github.com/jomendez/simple-webpack-boilerplate && cd simple-webpack-boilerplate && rm -rf .git && git init`
-2. Run `npm install`
-3. Run `npm run setup` to configure the app (include JQuery, etc)
-4. Run `npm run dev` to open a local web server with live-reload 
-5. Run `npm run build` build for production (./dist folder) 
+### Clone repo:
+```
+git clone https://github.com/jomendez/simple-webpack-boilerplate && cd simple-webpack-boilerplate && rm -rf .git && git init
+````
+
+1. Run `npm install` 
+2. Run `npm run setup` to configure the app (include JQuery, etc)
+3. Run `npm run dev` to open a local web server with live-reload 
+4. Run `npm run build` build for production (./dist folder) 
 
 
 

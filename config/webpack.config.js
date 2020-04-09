@@ -8,13 +8,11 @@ module.exports = {
   context: path.join(config.root, config.paths.src),
   entry: [
     path.join(config.root, config.paths.src, 'main.js'),
-    // path.join(config.root, config.paths.src, 'index.html'),
+    path.join(config.root, config.paths.src, 'index.html'),
 ],
   output: {
     path: __dirname + '/dist',
     filename: 'bundle.js'
-    // path: path.join(config.root, config.paths.dist),
-    // filename: '[name].[hash].js',
   },
   
   mode: ['production', 'development'].includes(config.env)
