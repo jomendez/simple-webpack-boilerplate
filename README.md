@@ -1,11 +1,13 @@
 # Bundle a simple web app with Webpack
 
+
+![image](https://user-images.githubusercontent.com/8228498/78913687-60067200-7a57-11ea-80de-66a3feea8c74.png)
+
 A simple skeleton project to rapid prototyping and development of front-end apps, with scss, ES7, webpack (bundlefy, uglyfy,etc).
 
 ## Requirements
 
 * [Node.js](http://nodejs.org/) (developed with node 12)
-
 
 ## Installation Steps (if applicable)
 
