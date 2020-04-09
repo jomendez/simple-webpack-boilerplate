@@ -9,7 +9,7 @@ install:
 script:
   - npm run lint:styles
   - npm run lint:js
-  - npm run build:dist
+  - npm run build
 
 dist: trusty
 sudo: true
