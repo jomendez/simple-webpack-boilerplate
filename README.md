@@ -8,6 +8,23 @@
 
 A simple skeleton project to rapid prototyping and development of front-end apps, with scss (optional), pug(optional), ES7, webpack (bundlefy, uglyfy,etc).
 
+
+ ## Features
+
+* **Modern Technologies:** Full support for HTML5, PUG, JavaScript (Vanilla and ES7) and CSS (Sass, scss and PostCSS)
+* **Built-in Server:** Local development server with live reloading
+* **Performance Tuning:** CSS and JavaScript transpilation, bundling, autoprefixing, and minification
+* **Image Optimization:** Optimizes images for loading speed
+* **Favicon Generation:** Automatically generates all favicons for Web, Apple and Android devices from one image file
+* **Code Linting:** Full support for JavaScript (ESLint) and CSS (StyleLint) linting
+* **Setup Wizard:** Optionally install helpful libraries and snippets including:
+  * jQuery
+  * Google Analytics
+  * FTP deployment process
+* **Cutting Edge:** Uses Webpack for processing and bundling your code 
+* **Deployment:** Built-in support for deployment via FTP 
+
+
 ## Requirements
 
 * [Node.js](http://nodejs.org/) (developed with node 12)
