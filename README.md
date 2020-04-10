@@ -25,7 +25,7 @@ rm -rf .git && git init
 
 In this step you'll be able to setup your google analytics, enable jquery, setup (optional) an FTP for deployments.
 
-![image](https://user-images.githubusercontent.com/8228498/79028644-e659ab80-7b5e-11ea-9367-e0918bdefdd3.png)
+![image](https://user-images.githubusercontent.com/8228498/79028751-4cdec980-7b5f-11ea-87c7-1bbb27361ff7.png)
 
 3. Run `npm run dev` to open a browser and lunch a local web server with live-reload 
 4. Run `npm run build` build for production (./dist folder) 
