@@ -1,9 +1,10 @@
-[![Build Status](https://travis-ci.org/jomendez/simple-webpack-boilerplate.svg?branch=master)](https://travis-ci.org/jomendez/simple-webpack-boilerplate)  [![dependencies Status](https://david-dm.org/jomendez/simple-webpack-boilerplate/status.svg)](https://david-dm.org/jomendez/simple-webpack-boilerplate)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/jomendez/simple-webpack-boilerplate.svg?branch=master)](https://travis-ci.org/jomendez/simple-webpack-boilerplate)  [![dependencies Status](https://david-dm.org/jomendez/simple-webpack-boilerplate/status.svg)](https://david-dm.org/jomendez/simple-webpack-boilerplate)
 
 # Bundle a simple web app with Webpack
 
-
-![image](https://user-images.githubusercontent.com/8228498/78913687-60067200-7a57-11ea-80de-66a3feea8c74.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8228498/78913687-60067200-7a57-11ea-80de-66a3feea8c74.png">
+</p>
 
 A simple skeleton project to rapid prototyping and development of front-end apps, with scss, ES7, webpack (bundlefy, uglyfy,etc).
 
