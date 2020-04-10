@@ -25,3 +25,8 @@ rm -rf .git && git init
 3. Run `npm run dev` to open a local web server with live-reload 
 4. Run `npm run build` build for production (./dist folder) 
 
+## If everything went well...
+
+You browser should open a new tab and you should see something like this:
+
+![image](https://user-images.githubusercontent.com/8228498/79012634-bdbcbc00-7b34-11ea-9fd4-265a0eede4e2.png)
