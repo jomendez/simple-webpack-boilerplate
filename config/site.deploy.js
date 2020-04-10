@@ -44,7 +44,7 @@ async function runSetup() {
   if (typeof questions.ftp_password !== 'undefined') {
     deployConfig.password = questions.ftp_password;
 
-    // Start the deploynment
+    // Start the deployment
     const ftpDeploy = new FtpDeploy();
     ftpDeploy.deploy(deployConfig).then(() => {
       console.log(chalk.green('Deployed successfuly'));
