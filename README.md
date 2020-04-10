@@ -22,10 +22,16 @@ rm -rf .git && git init
 
 1. Run `npm install` 
 2. Run `npm run setup` to configure the app (include JQuery, etc)
-3. Run `npm run dev` to open a local web server with live-reload 
-4. Run `npm run build` build for production (./dist folder) 
 
-## If everything went well...
+In this step you'll be able to setup your google analytics, enable jquery, setup (optional) an FTP for deployments.
+
+![image](https://user-images.githubusercontent.com/8228498/79028644-e659ab80-7b5e-11ea-9367-e0918bdefdd3.png)
+
+3. Run `npm run dev` to open a browser and lunch a local web server with live-reload 
+4. Run `npm run build` build for production (./dist folder) 
+5. Run `npm run deploy` to deploy your code to your FTP.
+
+## If everything went well (`npm run dev`)...
 
 You browser should open a new tab and you should see something like this:
 
