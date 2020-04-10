@@ -8,7 +8,7 @@ if (!ROOT) {
 
 const config = {
   site_url: '',
-  site_port: 9000,
+  site_port: '',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: '',
@@ -32,7 +32,21 @@ const config = {
     config: 'config',
     src: 'src',
     dist: 'dist',
-  }
+  },
+
+  // FTP setup
+ 
+   // FTP Port
+   ftp_port: '',
+ 
+   // Remote FTP folder to upload to
+   ftp_remote: '',
+
+   // FTP username
+   ftp_user: '',
+ 
+   // FTP Host
+   ftp_host: ''
 };
 
 module.exports = config;
