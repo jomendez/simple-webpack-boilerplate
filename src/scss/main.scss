@@ -4,7 +4,7 @@ body {
 
 .wasteland {
   animation: zoomIn 20s linear infinite alternate;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/71829/wasteland.jpg);
+  background-image: url(../img/wasteland.jpg);
   background-size: cover;
   height: 100vh;
   position: fixed;
@@ -13,7 +13,7 @@ body {
 
 .glass {
   animation: zoomIn 20s linear infinite alternate-reverse;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/71829/5791996587_7b192ffbf7_o.jpg);
+  background-image: url(../img/dirt.jpg);
   background-size: cover;
   height: 100vh;
   opacity: 0.3;

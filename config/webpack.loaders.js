@@ -5,13 +5,13 @@ const config = require('./site.config');
 const sourceMap = config.env !== 'production';
 
 // HTML loaders
-const html =  {
+const html = {
   test: /\.html/,
   loader: 'file-loader?name=[name].[ext]',
 };
 
 // Javascript loaders
-const js =  {
+const js = {
   test: /\.js$/,
   exclude: /node_modules/,
   use: ['babel-loader']
@@ -64,9 +64,10 @@ const sass = {
 };
 
 // Image loaders
-const imageLoader = {
+const imageLoaderProd = {
   loader: 'image-webpack-loader',
   options: {
+    esModule: false,
     bypassOnDebug: true,
     gifsicle: {
       interlaced: false,
@@ -84,12 +85,20 @@ const imageLoader = {
   },
 };
 
+const imageLoader = {
+  loader: 'file-loader',
+  options: {
+    esModule: false,
+    name: 'img/[name].[hash].[ext]'
+  }
+}
+
 const images = {
   test: /\.(gif|png|jpe?g|svg)$/i,
   exclude: /fonts/,
   use: [
-    'file-loader?name=images/[name].[hash].[ext]',
-    config.env === 'production' ? imageLoader : null,
+    //'file-loader?name=img/[name].[hash].[ext]',
+    config.env === 'production' ? imageLoaderProd : imageLoader,
   ].filter(Boolean),
 };
 
@@ -122,7 +131,7 @@ const videos = {
   ],
 };
 
-const pug =  {
+const pug = {
   test: /\.pug$/,
   loader: ['pug-loader']
 };
