@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jomendez/simple-webpack-boilerplate.svg?branch=master)](https://travis-ci.org/jomendez/simple-webpack-boilerplate)
+
 # Bundle a simple web app with Webpack
 
 
