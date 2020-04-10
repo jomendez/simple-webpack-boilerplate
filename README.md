@@ -6,7 +6,7 @@
   <img src="https://user-images.githubusercontent.com/8228498/78913687-60067200-7a57-11ea-80de-66a3feea8c74.png">
 </p>
 
-A simple skeleton project to rapid prototyping and development of front-end apps, with scss, ES7, webpack (bundlefy, uglyfy,etc).
+A simple skeleton project to rapid prototyping and development of front-end apps, with scss (optional), pug(optional), ES7, webpack (bundlefy, uglyfy,etc).
 
 ## Requirements
 
