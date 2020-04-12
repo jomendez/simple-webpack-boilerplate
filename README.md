@@ -60,7 +60,7 @@ You browser should open a new tab and you should see something like this:
 
 It is recommended to create a new page within the src folder or use the one that comes with the example *page.pug* to start adding your content. 
 
-![image](https://user-images.githubusercontent.com/8228498/79080763-ad980e80-7ce5-11ea-9ca6-38fed94abc1c.png)
+![image](https://user-images.githubusercontent.com/8228498/79081021-9bb76b00-7ce7-11ea-9bc6-61b996f26e4e.png)
 
 Then you can go to src/js/app.js file and add the following lines:
 
@@ -71,4 +71,3 @@ document.querySelector('container').innerHTML = page();
 
 The code above is going to transpile the pug file this particular case (but it can be an html file). 
 Then we will insert the content of the page into the container tag on the index.html.
-
