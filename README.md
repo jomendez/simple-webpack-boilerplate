@@ -55,3 +55,20 @@ You browser should open a new tab and you should see something like this:
 
 ![image](https://user-images.githubusercontent.com/8228498/79012634-bdbcbc00-7b34-11ea-9fd4-265a0eede4e2.png)
 
+
+## Quick example
+
+It is recommended to create a new page within the src folder or use the one that comes with the example *page.pug* to start adding your content. 
+
+![image](https://user-images.githubusercontent.com/8228498/79080763-ad980e80-7ce5-11ea-9ca6-38fed94abc1c.png)
+
+Then you can go to src/js/app.js file and add the following lines:
+
+```
+const page = require("../page.pug");
+document.querySelector('container').innerHTML = page();
+```
+
+The code above is going to transpile the pug file this particular case (but it can be an html file). 
+Then we will insert the content of the page into the container tag on the index.html.
+
